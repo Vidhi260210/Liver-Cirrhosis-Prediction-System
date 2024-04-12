@@ -1,0 +1,22 @@
+Data Entries for Model
+
+1. Number of days between registration and the earlier of death transplantation, or study analysis time --> N_Days --> Integer basically when it was detected
+
+2. Status of the patient : Values valid only are
+(DROP DOWN)  
+C (0): Censored which means maybe alive
+CL(1): Censored which means maybe alive but had liver transplantation
+D(2): Dead
+
+3. Age (in years) : Age of the patient
+4. Sex (M(1) or F(0)) (Drop Down): Sex of the patient
+5. Ascites,Spiders,Edema (0(N) or 1(Y)):
+6. Drug (['D-penicillamine', 'Placebo'], [0, 1])
+7. Bilurubin, Cholestrol, Albumin, Copper, Alk_phos, SGOT, Triglicerides, Platelets, Prothrombin (integer) 
+
+
+Stage (String) will be output where 
+1: Stage 1
+2: Stage 2
+3: Stage 3
+4: Stage 4    
